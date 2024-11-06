@@ -3,7 +3,7 @@ import darkmode from "../assets/darkmode.svg";
 import grid from '../assets/grid.svg';
 import logo from '../assets/logo.svg';
 import menu from '../assets/menu.svg';
-import icon from '../assets/icon.svg';
+import icon from '../assets/Icon.svg';
 import { useDarkMode } from './DarkModeContext';
 
 const NavBar = () => {
