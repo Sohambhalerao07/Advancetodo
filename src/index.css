@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  html.dark-mode, html.dark-mode body {
+    background-color: #1F2937;
+    color: #ffffff;
+  }
+  
+  /* Sidebar-specific dark mode styles */
+  .dark-mode .sidebar {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  .dark-mode .sidebar img {
+    filter: brightness(0.8);
+  }
+  
+  .dark-mode .icon-invert {
+    filter: invert(1);
+  }
+  
+  /* Input, button, and other element adjustments for dark mode */
+  .dark-mode input, .dark-mode button {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+  }
+  
+  .dark-mode button {
+    background-color: #444;
+    color: white;
+  }
+  
